@@ -1,0 +1,19 @@
+...>    __new__.__defaults__ to create Task objects without having to specify all the
+    fields. 
+
+    The test_defaults() test is there to demonstrate and validate how the defaults work.
+
+    The test_member_access() test is to demonstrate how to access members by name and not by
+    index, which is one of the main reasons to use namedtuples.
+
+
+
+...>    The part of pytest execution where pytest goes off and finds which tests to run is called test
+    discovery. pytest was able to find all the tests we wanted it to run because we named them(7)
+    according to the pytest naming conventions. Here’s a brief overview of the naming conventions
+    to keep your test code discoverable by pytest:
+    Test files should be named test_<something>.py or <something>_test.py.
+    Test methods and functions should be named test_<something>.
+    Test classes should be named Test<Something>.
+    Since our test files and functions start with test_, we’re good. There are ways to alter these
+    discovery rules if you have a bunch of tests named differently.
