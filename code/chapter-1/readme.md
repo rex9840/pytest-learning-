@@ -44,7 +44,7 @@ syntax : `pytest <test_file_name>::test_name`
 
 ---
 
-#####Using Options
+##### Using Options
 
 > pytest [options] [file_or_dir] [file_or_dir] [...]
 
